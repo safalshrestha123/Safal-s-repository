@@ -8,6 +8,7 @@
 N = int(input("Enter the minutes passed science midnight:"))
 hours = (N//60)
 minutes = (N%60)
+
 print(f"the hours is {hours}")
 print(f"the minute is {minutes}")
 print(f"its {hours}:{minutes} nom")
